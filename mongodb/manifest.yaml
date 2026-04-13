@@ -35,7 +35,8 @@ spec:
      tier: db
      component: mongodb
   serviceName: "mongodb-headless"  #we should attach headless server
-  replicas: 3 # by default is 1
+  #replicas: 3 # by default is 1
+  replicas: 1
   # Pod definition
   template:
     metadata:
