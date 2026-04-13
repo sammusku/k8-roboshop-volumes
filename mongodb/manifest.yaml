@@ -17,7 +17,7 @@ spec:
  ports:
   - protocol: TCP
     port: 27017 # servie port
-    targetPort: 27017# container port
+    targetPort: 27017 # container port
 ---
 apiVersion: apps/v1
 kind: StatefulSet
@@ -48,7 +48,7 @@ spec:
       - name: mongodb
         image: sam123yuktha/mongodb:1.0.0
         volumeMounts:
-        - name: mongodbd
+        - name: mongodb
           mountPath: /data/db
   #PVC
   volumeClaimTemplates:
