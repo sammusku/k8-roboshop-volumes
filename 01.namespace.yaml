@@ -1,0 +1,8 @@
+appVersion: v1
+kind: Namespace
+metadta:
+ name: roboshop
+ labels:
+  project: roboshop
+  environment: dev
+  purpose: poc
